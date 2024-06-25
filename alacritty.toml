@@ -1,0 +1,20 @@
+import = ["/home/lucca/.config/alacritty/themes/themes/hyper.toml"]
+
+[font.normal]
+family = "Iosevka Term Nerd Font"
+
+[shell]
+program = "nu"
+args = ["-e", "/home/lucca/.cargo/bin/zellij -l welcome"]
+
+[font]
+size = 13
+
+[window]
+decorations = "full"
+opacity = 0.85
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 300
+lines = 80
